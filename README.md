@@ -4,6 +4,6 @@ Repository ini digunakan untuk praktik dan pengumpulan tugas mata kuliah Pemrogr
 
 
 > Author
-> Rizki Nuzul Muzaki
-> A11.2020.12762
-> 4303
+Rizki Nuzul Muzaki\
+A11.2020.12762\
+4303
