@@ -3,12 +3,9 @@
 Repository ini digunakan untuk praktik dan pengumpulan tugas mata kuliah Pemrograman Berbasis Web dengan dosen pengampu pak Abu Salam, M.Kom
 
 ## Minggu 1
-<details>
-    <summary>## Minggu 1</summary>
-    ✅| Install Web Server (Apache, PHP, MariaDB)\
-    ✅| Install Git and Push Repository to Github\
-    ✅| Explore dasar-dasar HTML
-</details>
+✅| Install Web Server (Apache, PHP, MariaDB)\
+✅| Install Git and Push Repository to Github\
+✅| Explore dasar-dasar HTML
 
 > *Rizki Nuzul Muzaki\
 A11.2020.12762\
