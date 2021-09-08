@@ -6,7 +6,7 @@ Repository ini digunakan untuk praktik dan pengumpulan tugas mata kuliah Pemrogr
 
 ✅| Install Web Server (Apache, PHP, MariaDB)\
 ✅| Install Git and Push Repository to Github\
-✅| Explore dasar-dasar HTML\
+✅| Explore dasar-dasar HTML
 
 > *Rizki Nuzul Muzaki\
 A11.2020.12762\
