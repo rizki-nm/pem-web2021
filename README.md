@@ -4,8 +4,6 @@ Repository ini digunakan untuk praktik dan pengumpulan tugas mata kuliah Pemrogr
 
 ## Minggu 1
 
-No | Task
-:---:| ---
 ✅| Install Web Server (Apache, PHP, MariaDB)
 ✅| Install Git and Push Repository to Github
 ✅| Explore dasar-dasar HTML
