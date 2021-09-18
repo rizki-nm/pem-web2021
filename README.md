@@ -18,7 +18,7 @@ Repository ini digunakan untuk praktik dan pengumpulan tugas mata kuliah Pemrogr
 :heavy_check_mark: Install W3School Offline (versi 2021)\
 :heavy_check_mark: Pelajari dan Praktikan Syntax HTML\
 :heavy_check_mark: Membuat tampilan biodata diri dan push ke Github\
-:soon: [Lihat hasil Minggu 2](https://rizki-nm.github.io/pem-web2021/minggu2/biodata-diri)
+:heavy_check_mark: [Lihat hasil Minggu 2](https://rizki-nm.github.io/pem-web2021/minggu2/biodata-diri)
 
 > *Rizki Nuzul Muzaki\
 A11.2020.12762\
