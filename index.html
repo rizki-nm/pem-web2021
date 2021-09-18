@@ -27,7 +27,7 @@
 
         <main class="mt-5">
             <h2 id="agendas"># Tugas:</h2>
-            <ul class="mt-3"">
+            <ul class="mt-3">
                 <li><a href="#minggu1">Minggu 1</a></li>
                 <li><a href="#minggu2">Minggu 2</a></li>
             </ul>
@@ -60,10 +60,10 @@
     </div>
 
 <script>
-var date = new Date()
-var hours = date.getHours()
-var name = "Pak Abu Salam."
-var greeting;
+const date = new Date();
+const hours = date.getHours();
+const name = "Pak Abu Salam.";
+let greeting;
 
 function salam() {
     if (hours >= 1 && hours < 10) {
@@ -72,7 +72,7 @@ function salam() {
         greeting = "Selamat Siang, " + name;
     } else if (hours >= 15 && hours < 18) {
         greeting = "Selamat Sore, " + name;
-    } else if (hours >= 18 && hours < 1) {
+    } else {
         greeting = "Selamat Malam, " + name;
     }
     document.getElementById("greeting").innerHTML = greeting;
