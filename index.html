@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Home</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+<body>
+    <div class="container">
+        <header style="margin-top: 40px;">
+            <h1 id="greeting" class="border-bottom border-secondary border-1"></h1>
+        </header>
+
+        <nav aria-label="breadcrumb" class="mt-5 fw-light">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#" class="text-decoration-none">Home</a></li>
+                <li class="breadcrumb-item"><a href="#agendas" class="text-decoration-none">Agendas</a></li>
+            </ol>
+        </nav>
+
+        <main class="mt-5">
+            <h2 id="agendas"># Tugas:</h2>
+            <ul class="mt-3"">
+                <li><a href="#minggu1">Minggu 1</a></li>
+                <li><a href="#minggu2">Minggu 2</a></li>
+            </ul>
+
+            <br>
+            <hr>
+
+            <h5 id="minggu1" class="mt-5"># Minggu 1</h5>
+            <ul class="mt-3">
+                <li>Install Web Server</li>
+                <li>Install Git dan Push Repo ke Github</li>
+                <li>Explore Dasar-dasar HTML</li>
+            </ul>
+            <h5 id="minggu2" class="mt-5"># Minggu 2</h5>
+            <ul class="mt-3">
+                <li>Install W3School Offline (versi 2021)</li>
+                <li>Pelajari dan Praktikan Syntax HTML</li>
+                <li>Membuat tampilan biodata diri dan push ke Github</li>
+                <li><a href="minggu2/biodata-diri">Lihat hasil di Github Pages</a></li>
+            </ul>
+        </main>
+        <footer class="text-center mt-5 fw-light">
+            <hr>
+            <p>
+                Rizki Nuzul Muzaki<br>
+                A11.2020.12762<br>
+                4303
+            </p>
+        </footer>
+    </div>
+
+<script>
+var date = new Date()
+var hours = date.getHours()
+var name = "Pak Abu Salam."
+var greeting;
+
+function salam() {
+    if (hours >= 1 && hours < 10) {
+        greeting = "Selamat Pagi, " + name;
+    } else if (hours >= 10 && hours < 15) {
+        greeting = "Selamat Siang, " + name;
+    } else if (hours >= 15 && hours < 18) {
+        greeting = "Selamat Sore, " + name;
+    } else if (hours >= 18 && hours < 1) {
+        greeting = "Selamat Malam, " + name;
+    }
+    document.getElementById("greeting").innerHTML = greeting;
+}
+
+salam();
+
+</script>
+</body>
+</html>
