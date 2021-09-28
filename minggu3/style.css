@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+.title {
+    text-align: center;
+}
+
+.table1, td {
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+}
+
+.table2 {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+th, td {
+    padding: 5px;
+}
+
+tr {
+    border-bottom: 1px solid grey;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.thead {
+    color: white;
+    background-color: rgb(32, 72, 90);
+}
+
+th {
+    text-align: left;
+}
+
+hr {
+    width: 80%;
+}
+
+.parent {
+    margin-top: 50px;
+}
+
+.child {
+    /*border: 1px solid blue;*/
+    width: 40%;
+}
+
+img {
+    float: right;
+}
+
+@media (min-width: 768px) {
+    .parent {
+        display: flex;
+    }
+}
