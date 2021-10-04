@@ -25,6 +25,12 @@ Repository ini digunakan untuk praktik dan pengumpulan tugas mata kuliah Pemrogr
 :heavy_check_mark: Latihan HTML Media (Videos, Audio, Plug-ins, Youtube)\
 :heavy_check_mark: Push repo ke Github
 
+### Minggu4
+:heavy_check_mark: Latihan mandiri membuat form\
+:heavy_check_mark: Tugas membuat form PPDB\
+:heavy_check_mark: Push repo ke Github\
+:heavy_check_mark: [Lihat hasil Minggu 4](https://rizki-nm.github.io/pem-web2021/minggu4/tugas)
+
 > *Rizki Nuzul Muzaki\
 A11.2020.12762\
 4303*
