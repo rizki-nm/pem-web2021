@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PPDB Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>FORMULIR PPDB JALUR ZONASI TAHUN 2021</h1>
+
+    <form action="proses.php" method="POST">
+        <div class="wrap">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">1. INFO PENDAFTARAN</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>NISN</td>
+                        <td><input type="number" id="f_nisn" name="f_nisn" required></td>
+                    </tr>
+                    <tr>
+                        <td>Asal Sekolah</td>
+                        <td><input type="text" id="f_sekolah" name="f_sekolah" required></td>
+                    </tr>
+                    <tr>
+                        <td>Tahun Lulus</td>
+                        <td><input type="number" id="f_tahunLulus" name="f_tahunLulus" required></td>
+                    </tr>
+                </tbody>
+
+                <thead>
+                    <tr>
+                        <th colspan="2">2. Data Calon Peserta</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nama Lengkap</td>
+                        <td><input type="text" id="f_namaPeserta" name="f_namaPeserta" required></td>
+                    </tr>
+                    <tr>
+                        <td>NIK</td>
+                        <td><input type="number" id="f_NIK" name="f_NIK" required></td>
+                    </tr>
+                    <tr>
+                        <td>Tempat Lahir</td>
+                        <td><input type="text" id="f_tempatLahir" name="f_tempatLahir" required></td>
+                    </tr>
+                    <tr>
+                        <td>Tanggal Lahir</td>
+                        <td><input type="date" id="f_tanggalLahir" name="f_tanggalLahir" required></td>
+                    </tr>
+                    <tr>
+                        <td>Jenis Kelamin</td>
+                        <td>
+                            <input type="radio" id="laki" name="f_jenisKelamin" value="Laki-laki">
+                            <label for="laki">Laki-laki</label>
+                            <input type="radio" id="perempuan" name="f_jenisKelamin" value="Perempuan">
+                            <label for="perempuan">Perempuan</label>
+                        </td>
+                    </tr>
+                </tbody>
+
+                <thead>
+                    <tr>
+                        <th colspan="2">3. Alamat</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Desa/Kel</td>
+                        <td><input type="text" id="f_kelurahan" name="f_kelurahan" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kecamatan</td>
+                        <td><input type="text" id="f_kecamatan" name="f_kecamatan" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kabupaten</td>
+                        <td><input type="text" id="f_kota" name="f_kota" required></td>
+                    </tr>
+                    <tr>
+                        <td>Provinsi</td>
+                        <td><input type="text" id="f_provinsi" name="f_provinsi" required></td>
+                    </tr>
+                    <tr>
+                        <td>Email aktif</td>
+                        <td><input type="text" id="f_email" name="f_email" required></td>
+                    </tr>
+                </tbody>
+
+                <thead>
+                    <tr>
+                        <th colspan="2">4. Data Orang Tua</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nomor Kartu Keluarga</td>
+                        <td><input type="number" id="f_KK" name="f_KK" required></td>
+                    </tr>
+                    <tr>
+                        <td>Nama Ayah Kandung</td>
+                        <td><input type="text" id="f_namaAyah" name="f_namaAyah" required></td>
+                    </tr>
+                    <tr>
+                        <td>Agama</td>
+                        <td><input type="text" id="f_agamaAyah" name="f_agamaAyah" required></td>
+                    </tr>
+                    <tr>
+                        <td>Pekerjaan</td>
+                        <td><input type="text" id="f_pekerjaanAyah" name="f_pekerjaanAyah" required></td>
+                    </tr>
+                    <tr>
+                        <td>Nama Ibu Kandung</td>
+                        <td><input type="text" id="f_namaIbu" name="f_namaIbu" required></td>
+                    </tr>
+                    <tr>
+                        <td>Agama</td>
+                        <td><input type="text" id="f_agamaIbu" name="f_agamaIbu" required></td>
+                    </tr>
+                    <tr>
+                        <td>Pekerjaan</td>
+                        <td><input type="text" id="f_pekerjaanIbu" name="f_pekerjaanIbu" required></td>
+                    </tr>
+                </tbody>
+
+                <thead>
+                    <tr>
+                        <th colspan="2">5. Alamat Orang Tua</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Desa/Kel</td>
+                        <td><input type="text" id="f_kelurahanOrtu" name="f_kelurahanOrtu" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kecamatan</td>
+                        <td><input type="text" id="f_kecamatanOrtu" name="f_kecamatanOrtu" required></td>
+                    </tr>
+                    <tr>
+                        <td>Kabupaten</td>
+                        <td><input type="text" id="f_kotaOrtu" name="f_kotaOrtu" required></td>
+                    </tr>
+                    <tr>
+                        <td>Provinsi</td>
+                        <td><input type="text" id="f_provinsiOrtu" name="f_provinsiOrtu" required></td>
+                    </tr>
+                </tbody>
+
+
+            </table>
+            <div class="submit">
+                <input type="reset" value="RESET">
+                <input type="submit" value="SUBMIT">
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
