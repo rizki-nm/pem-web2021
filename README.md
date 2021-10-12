@@ -32,6 +32,10 @@ Repository ini digunakan untuk praktik dan pengumpulan tugas mata kuliah Pemrogr
 :heavy_check_mark: Push repo ke Github\
 :heavy_check_mark: [Lihat hasil Minggu 4](https://rizki-nm.github.io/pem-web2021/minggu4/tugas)
 
+### Minggu5
+:heavy_check_mark: Membuat beberapa file html menggunakan semantic element\
+:heavy_check_mark: Push repo ke Github\
+
 > *Rizki Nuzul Muzaki\
 A11.2020.12762\
 4303*
