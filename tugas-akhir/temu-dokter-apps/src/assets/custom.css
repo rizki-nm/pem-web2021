@@ -1,0 +1,79 @@
+* {
+    font-family: 'Poppins';
+}
+
+/*Scroll Animation*/
+.content-scroll {
+    opacity: 0;
+    transform: scale(0.1);
+    transition: all 1s ease-in-out;
+}
+
+.active {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.test {
+    border: 1px solid black;
+    border-radius: inherit;
+}
+
+.title {
+    font: 700;
+    font-size: 48px;
+}
+
+.title2 {
+    font: 700;
+    font-size: 28px;
+}
+
+.title3 {
+    font: 700;
+    font-size: 20px;
+}
+
+.tema {
+    font-size: 18px;
+}
+
+.timeline {
+    font: 700;
+    font-size: 18px;
+    color: white;
+}
+
+.timeline-nonaktif {
+    font: 700;
+    font-size: 18px;
+    color: red;
+}
+
+.font-button {
+    font-size: 20px;
+}
+
+.font-button-2 {
+    font-size: 16px;
+}
+
+.color-button {
+    color: white;
+    background-color: #4043BC;
+}
+
+.color-button:hover {
+    color: white;
+    background-color: #FF5C97;
+}
+
+.color-button-2 {
+    color: white;
+    background-color: #FF5C97;
+}
+
+.color-button-2:hover {
+    color: white;
+    background-color: #4043BC;
+}
